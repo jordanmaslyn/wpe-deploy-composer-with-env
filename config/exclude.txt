@@ -13,6 +13,6 @@ cache/supercache/*
 index.php
 mysql.sql
 
-.env
+# .env
 .env.*
 vendor
