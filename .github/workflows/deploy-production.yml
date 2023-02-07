@@ -9,15 +9,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - run: echo "- $GITHUB_WORKSPACE"
-    
     - name: Make envfile
-      uses: SpicyPizza/create-envfile@v1.3
+      uses: SpicyPizza/create-envfile@v1.2
       with:
         envkey_PLUGIN_ACF_KEY: ${{ secrets.PLUGIN_ACF_KEY }}
         file_name: .env
         fail_on_empty: false
-        path: /home/runner/work/wpe-deploy-composer-with-env/wpe-deploy-composer-with-env
 
     - name: GitHub Action Deploy to WP Engine
       uses: wpengine/github-action-wpe-site-deploy@v3
