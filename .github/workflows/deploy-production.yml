@@ -14,7 +14,7 @@ jobs:
       with:
         envkey_PLUGIN_ACF_KEY: ${{ secrets.PLUGIN_ACF_KEY }}
         file_name: .env
-        fail_on_empty: true
+        fail_on_empty: false
 
     - name: GitHub Action Deploy to WP Engine
       uses: wpengine/github-action-wpe-site-deploy@v3
