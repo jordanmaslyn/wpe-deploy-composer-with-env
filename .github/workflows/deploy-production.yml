@@ -15,7 +15,7 @@ jobs:
         envkey_PLUGIN_ACF_KEY: ${{ secrets.PLUGIN_ACF_KEY }}
         file_name: .env
         fail_on_empty: false
-        path: .
+        path: /home/runner/work/wpe-deploy-composer-with-env/wpe-deploy-composer-with-env
 
     - name: GitHub Action Deploy to WP Engine
       uses: wpengine/github-action-wpe-site-deploy@v3
