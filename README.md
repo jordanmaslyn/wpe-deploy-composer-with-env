@@ -1,4 +1,4 @@
-A demo repo to show one way to manage dependencies with Composer and deploy to WP Engine.
+A demo repo to show one way to manage dependencies with Composer and deploy to WP Engine + how to pass GitHub Secrets as as .env file.
 
 Tutorial: [Using Composer to manage plugins and deploy to WP Engine](https://wpengine.com/builders/using-composer-manage-plugins-deploy/)
 
